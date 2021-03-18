@@ -4758,6 +4758,7 @@ pre {
     background: no-repeat center center;
     background-size: cover;
     position: relative;
+    height:100%;
 }
 .image-wrapper:not(.box-shadow):not(*:root) {
     -webkit-transform: translateZ(0)	
@@ -4774,7 +4775,9 @@ pre {
     z-index: 1;
     width: 100%;
     height: 100%;
-    background: rgba(21, 21, 21, 0.5);
+    background:url('style/images/art/bg4.jpg');
+    background-size: cover;
+
 }
 .image-wrapper.no-overlay:before {
     display: none;
