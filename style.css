@@ -384,14 +384,25 @@ h1.post-title,
     color: #909090;
 }
 .inner {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
+    position: relative;
 }
 .light-wrapper {
     background: #FAFAF9;
 }
 .gray-wrapper {
-    background: #f7f8fc;
+    background: #000;
+    position: relative;
+    height:100px;
+}
+.text-icon {
+    position: relative;
+    top:-50px;
+}
+.text-icon h3 {
+    color:orangered !important;
+
 }
 .dark-wrapper {
     background: #181818
@@ -2468,7 +2479,7 @@ footer p {
     max-width: none;
 }
 .collage-image-wrapper figure a {
-    color: #FFF !important
+    color: #000 !important
 }
 .collage-image-wrapper .overlay span.bg {
     top: 10px;
@@ -4774,7 +4785,7 @@ pre {
     left: 0;
     z-index: 1;
     width: 100%;
-    height: 100%;
+    height: 275px;
     background:url('style/images/art/skate6.jpg');
     background-size: cover;
 
@@ -4804,6 +4815,11 @@ pre {
 .image-wrapper .tparrows {
     position: absolute;
 }
+
+
+
+
+
 /*-----------------------------------------------------------------------------------*/
 /*	45. VIDEO BACKGROUND WRAPPER
 /*-----------------------------------------------------------------------------------*/
